@@ -6,7 +6,10 @@ array = random.sample(range(1, 1000), 999)
 
 
 def merge_sort(array):
-    """O(n log n)"""
+    """
+    Time Complexity: O(n * log n)
+    Space Complexity: O(n)
+    """
     n = len(array)
     # Divide the array in half
     if n > 1:
