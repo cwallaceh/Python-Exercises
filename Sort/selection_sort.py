@@ -6,11 +6,14 @@ array = random.sample(range(1, 1000), 999)
 
 
 def selection_sort(array):
-    """O(n2)"""
+    """
+    Time Complexity: O(n²)
+    Space Complexity: O(1)
+    """
     n = len(array)
     # Traverse through all array elements
     for i in range(n):
-        # Find the minimum element in remainin unsorted array
+        # Find the minimum element in remaining unsorted array
         min_idx = i
         for j in range(i + 1, n):
             if array[min_idx] > array[j]:
