@@ -6,7 +6,10 @@ array = random.sample(range(1, 1000), 999)
 
 
 def bubble_sort(array):
-    """O(n2)"""
+    """
+    Time Complexity: O(n²)
+    Space Complexity: O(1)
+    """
     n = len(array)
     # Traverse through all array elements
     for i in range(n):
